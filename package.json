@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Bespoke Responsive Landing Page for RoseDsigns Creative Studio",
   "scripts": {
-    "build": "echo 'Static site ready'",
     "start": "npx serve . -l 3000",
     "dev": "npx serve . -l 3000"
   },
