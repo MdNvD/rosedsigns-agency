@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140E0A"/>
+      <stop offset="50%" stop-color="#24150D"/>
+      <stop offset="100%" stop-color="#3D1E10"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <radialGradient id="culinaryGlow" cx="65%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#140E0A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="url(#culinaryGlow)"/>
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+
+  <!-- Stylized Culinary Plate & Leaf Art -->
+  <circle cx="560" cy="250" r="140" fill="none" stroke="rgba(245, 158, 11, 0.25)" stroke-width="3"/>
+  <circle cx="560" cy="250" r="110" fill="rgba(245, 158, 11, 0.06)" stroke="url(#goldAccent)" stroke-width="2" stroke-dasharray="8 6"/>
+  
+  <!-- Dosa / Crescent Motif -->
+  <path d="M 490 220 C 530 160, 620 180, 640 260 C 650 310, 580 340, 520 300 C 480 270, 470 240, 490 220 Z" fill="none" stroke="url(#goldAccent)" stroke-width="4"/>
+  <circle cx="540" cy="225" r="18" fill="rgba(245, 158, 11, 0.4)"/>
+  <circle cx="585" cy="245" r="14" fill="rgba(226, 59, 85, 0.4)"/>
+  <circle cx="550" cy="275" r="12" fill="rgba(16, 185, 129, 0.4)"/>
+
+  <!-- Floating UI Device Card -->
+  <g transform="translate(90, 110)">
+    <!-- Browser Window Card -->
+    <rect width="360" height="270" rx="16" fill="#1A1C24" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.6))"/>
+    
+    <!-- Window Bar -->
+    <rect width="360" height="38" rx="16" fill="#12141A"/>
+    <circle cx="22" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="38" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="54" cy="19" r="5" fill="#10B981"/>
+    <rect x="76" y="10" width="180" height="18" rx="6" fill="#252936"/>
+    <text x="88" y="23" font-family="-apple-system, sans-serif" font-size="9" fill="#9CA3AF">a2bperth.com.au</text>
+
+    <!-- Card Content -->
+    <text x="24" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#F59E0B" letter-spacing="1.5">ADYAR ANANDA BHAVAN</text>
+    <text x="24" y="105" font-family="'Syne', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Harrisdale &amp; Yokine, WA</text>
+    <text x="24" y="132" font-family="-apple-system, sans-serif" font-size="11" fill="#9CA3AF">Traditional South Indian Vegetarian Excellence</text>
+
+    <!-- Map & Order Pills -->
+    <g transform="translate(24, 155)">
+      <rect width="135" height="34" rx="8" fill="#E23B55"/>
+      <text x="67" y="21" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Reserve a Table</text>
+    </g>
+    <g transform="translate(170, 155)">
+      <rect width="135" height="34" rx="8" fill="#252936" stroke="rgba(255,255,255,0.1)"/>
+      <text x="237" y="21" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#E5E7EB" text-anchor="middle">View Perth Menu</text>
+    </g>
+
+    <!-- Rating Strip -->
+    <g transform="translate(24, 218)">
+      <rect width="312" height="36" rx="8" fill="rgba(245, 158, 11, 0.08)" stroke="rgba(245, 158, 11, 0.25)"/>
+      <text x="16" y="22" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#F59E0B">★ 4.9 Rating</text>
+      <text x="110" y="22" font-family="-apple-system, sans-serif" font-size="11" fill="#9CA3AF">· 2,400+ Verified Perth Reviews</text>
+    </g>
+  </g>
+</svg>

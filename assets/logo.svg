@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" width="260" height="56" fill="none">
+  <defs>
+    <!-- Rose Gradient -->
+    <linearGradient id="logoRoseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D6D"/>
+      <stop offset="50%" stop-color="#E23B55"/>
+      <stop offset="100%" stop-color="#A51335"/>
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="logoGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+
+    <!-- Soft Drop Shadow for Icon -->
+    <filter id="logoShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#E23B55" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================================
+       LOGO SYMBOL: The Blooming Rose Pen (Design + Code + Floral Bloom)
+       ======================================================================== -->
+  <g transform="translate(4, 4)" filter="url(#logoShadow)">
+    <!-- Base Squircle with Subtle Glow -->
+    <rect width="48" height="48" rx="14" fill="#141724" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.2"/>
+    
+    <!-- Outer Blooming Petals (Organic Vitality) -->
+    <!-- Left Petal: Forming curve of 'R' -->
+    <path d="M 24 10 C 17 12, 11 18, 12 26 C 13 32, 18 36, 24 40 C 20 34, 18 28, 20 22 C 21 16, 24 12, 24 10 Z" 
+          fill="url(#logoRoseGrad)"/>
+
+    <!-- Right Petal: Forming sweeping curve of 'D' (Dsigns) -->
+    <path d="M 24 10 C 31 12, 37 18, 36 26 C 35 32, 30 36, 24 40 C 28 34, 30 28, 28 22 C 27 16, 24 12, 24 10 Z" 
+          fill="url(#logoRoseGrad)" opacity="0.9"/>
+
+    <!-- Center Blooming Heart Petal (Core Blossom) -->
+    <path d="M 24 14 C 20 18, 20 25, 24 31 C 28 25, 28 18, 24 14 Z" 
+          fill="#FFA8B6"/>
+
+    <!-- Designer's Stylus Pen Nib Anchor at Base (Digital Design Precision) -->
+    <path d="M 21 38 L 24 43 L 27 38 Z" fill="url(#logoGoldGrad)"/>
+    <circle cx="24" cy="37" r="1.2" fill="#141724"/>
+
+    <!-- Creative Spark / North Star (Inspiration & Marketing Reach) -->
+    <path d="M 36 9 Q 36 12 39 12 Q 36 12 36 15 Q 36 12 33 12 Q 36 12 36 9 Z" 
+          fill="url(#logoGoldGrad)"/>
+  </g>
+
+  <!-- ========================================================================
+       WORDMARK: "RoseDsigns" with Custom Editorial Hierarchy
+       ======================================================================== -->
+  <g transform="translate(64, 12)">
+    <!-- "Rose" in Bold Editorial Display Weight -->
+    <text x="0" y="24" font-family="'Syne', 'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FAF9F6" letter-spacing="-0.03em">
+      Rose<tspan fill="#E23B55">Dsigns</tspan><tspan fill="#E23B55">.</tspan>
+    </text>
+
+    <!-- Tagline: "CREATIVE &amp; DIGITAL STUDIO" -->
+    <text x="1" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#9BA1B5" letter-spacing="0.18em">
+      BRANDS THAT BLOOM
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name": "rosedsigns-agency-landing-page",
+  "version": "1.0.0",
+  "description": "Bespoke Responsive Landing Page for RoseDsigns Creative Studio ('Brands that Bloom')",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "dev": "npx serve . -l 3000",
+    "screenshots": "python take_screenshots.py"
+  },
+  "keywords": [
+    "rosedsigns",
+    "creative-agency",
+    "landing-page",
+    "responsive-design",
+    "web-development",
+    "portfolio"
+  ],
+  "author": "Web Design & Development Specialist Candidate",
+  "license": "MIT"
+}

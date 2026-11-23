@@ -1,0 +1,96 @@
+:root {
+  /* Brand Core Colors (RoseDsigns Identity) */
+  --rose-50: #FFF1F3;
+  --rose-100: #FFE4E8;
+  --rose-200: #FECDD6;
+  --rose-300: #FDA4AF;
+  --rose-400: #FB7185;
+  --rose-500: #E23B55; /* Primary Rose Accent */
+  --rose-600: #C92A42;
+  --rose-700: #9F1239;
+  --rose-800: #881337;
+  --rose-glow: rgba(226, 59, 85, 0.22);
+  --rose-subtle: rgba(226, 59, 85, 0.1);
+
+  /* Gold & Warm Highlights */
+  --gold-400: #F3C379;
+  --gold-500: #E5B26E;
+  --gold-glow: rgba(229, 178, 110, 0.2);
+
+  /* Typography Stacks */
+  --font-display: 'Syne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-editorial: 'Playfair Display', Georgia, serif;
+
+  /* Transitions & Radii */
+  --transition-fast: 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.18);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.28);
+  --shadow-glow: 0 0 35px var(--rose-glow);
+
+  /* Container */
+  --max-width: 1240px;
+  --section-spacing: clamp(4.5rem, 8vw, 8rem);
+  --header-height: 84px;
+}
+
+/* Dark Theme (Default - High-End Luxury Agency Aesthetic) */
+[data-theme="dark"] {
+  --bg-main: #0B0C10;
+  --bg-secondary: #12141C;
+  --bg-tertiary: #181B26;
+  --bg-card: #151824;
+  --bg-card-hover: #1C2030;
+  --bg-glass: rgba(18, 20, 28, 0.82);
+  --bg-glass-card: rgba(21, 24, 36, 0.7);
+
+  --text-main: #FAF9F6;
+  --text-muted: #9BA1B5;
+  --text-faint: #62677C;
+  --text-inverse: #0B0C10;
+
+  --border-hairline: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(226, 59, 85, 0.45);
+  --border-focus: rgba(226, 59, 85, 0.85);
+
+  --badge-bg: rgba(255, 255, 255, 0.05);
+  --badge-text: #E5E7EB;
+
+  --code-bg: #1A1D2A;
+}
+
+/* Light Theme (Crisp Editorial Gallery Aesthetic) */
+[data-theme="light"] {
+  --bg-main: #FAF8F5;
+  --bg-secondary: #F2ECE4;
+  --bg-tertiary: #E8E1D7;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FFFFFF;
+  --bg-glass: rgba(250, 248, 245, 0.88);
+  --bg-glass-card: rgba(255, 255, 255, 0.85);
+
+  --text-main: #131419;
+  --text-muted: #565C70;
+  --text-faint: #8A90A3;
+  --text-inverse: #FAF8F5;
+
+  --border-hairline: rgba(19, 20, 25, 0.09);
+  --border-hover: rgba(226, 59, 85, 0.5);
+  --border-focus: rgba(226, 59, 85, 0.9);
+
+  --badge-bg: rgba(19, 20, 25, 0.04);
+  --badge-text: #2D313E;
+
+  --code-bg: #EAE5DE;
+}

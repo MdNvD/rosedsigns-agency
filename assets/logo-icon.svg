@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <!-- Rose Gradient -->
+    <linearGradient id="iconRoseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D6D"/>
+      <stop offset="50%" stop-color="#E23B55"/>
+      <stop offset="100%" stop-color="#A51335"/>
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="iconGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Squircle -->
+  <rect width="64" height="64" rx="18" fill="#141724" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5"/>
+  
+  <!-- Outer Blooming Petals (Organic Vitality) -->
+  <!-- Left Petal: Forming curve of 'R' -->
+  <path d="M 32 12 C 22 15, 14 23, 16 34 C 18 42, 24 47, 32 52 C 27 44, 24 37, 26 29 C 28 21, 32 15, 32 12 Z" 
+        fill="url(#iconRoseGrad)"/>
+
+  <!-- Right Petal: Sweeping curve of 'D' (Dsigns) -->
+  <path d="M 32 12 C 42 15, 50 23, 48 34 C 46 42, 40 47, 32 52 C 37 44, 40 37, 38 29 C 36 21, 32 15, 32 12 Z" 
+        fill="url(#iconRoseGrad)" opacity="0.9"/>
+
+  <!-- Center Blooming Heart Petal -->
+  <path d="M 32 18 C 26 23, 26 33, 32 41 C 38 33, 38 23, 32 18 Z" 
+        fill="#FFA8B6"/>
+
+  <!-- Designer's Stylus Pen Nib Anchor at Base -->
+  <path d="M 28 50 L 32 56 L 36 50 Z" fill="url(#iconGoldGrad)"/>
+  <circle cx="32" cy="48" r="1.6" fill="#141724"/>
+
+  <!-- Creative Spark / North Star -->
+  <path d="M 48 11 Q 48 15 52 15 Q 48 15 48 19 Q 48 15 44 15 Q 48 15 48 11 Z" 
+        fill="url(#iconGoldGrad)"/>
+</svg>

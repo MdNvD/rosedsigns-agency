@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="auraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0F14"/>
+      <stop offset="50%" stop-color="#161822"/>
+      <stop offset="100%" stop-color="#211F1B"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#E5B26E"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#auraBg)"/>
+
+  <!-- Architectural Archway Outlines -->
+  <path d="M 500 450 L 500 220 A 100 100 0 0 1 700 220 L 700 450" fill="none" stroke="rgba(229, 178, 110, 0.2)" stroke-width="2"/>
+  <path d="M 530 450 L 530 230 A 70 70 0 0 1 670 230 L 670 450" fill="none" stroke="url(#goldGradient)" stroke-width="1.5" stroke-dasharray="8 6"/>
+
+  <!-- Minimalist Lamp Silhouette -->
+  <line x1="600" y1="50" x2="600" y2="150" stroke="#E5B26E" stroke-width="2"/>
+  <polygon points="560,180 640,180 615,150 585,150" fill="rgba(229, 178, 110, 0.3)" stroke="#E5B26E" stroke-width="1.5"/>
+  <circle cx="600" cy="180" r="25" fill="rgba(252, 211, 77, 0.25)" filter="blur(8px)"/>
+
+  <!-- Luxury Editorial Portfolio UI Mockup -->
+  <g transform="translate(90, 100)">
+    <rect width="360" height="280" rx="16" fill="#181A24" stroke="rgba(229, 178, 110, 0.3)" stroke-width="1.5" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.65))"/>
+    
+    <!-- Editorial Header -->
+    <rect width="360" height="38" rx="16" fill="#12131A"/>
+    <circle cx="22" cy="19" r="4" fill="#6B7280"/>
+    <circle cx="34" cy="19" r="4" fill="#6B7280"/>
+    <circle cx="46" cy="19" r="4" fill="#6B7280"/>
+    <text x="180" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#9CA3AF" text-anchor="middle">auraliving.design</text>
+
+    <!-- Content -->
+    <text x="28" y="75" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#E5B26E" letter-spacing="1">Bespoke Interior Studio</text>
+    <text x="28" y="105" font-family="'Syne', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Architectural Spaces</text>
+    <text x="28" y="128" font-family="-apple-system, sans-serif" font-size="11" fill="#9CA3AF">Minimalist digital showroom &amp; private client portal</text>
+
+    <!-- Grid of Furniture Objects -->
+    <g transform="translate(28, 145)">
+      <rect width="95" height="70" rx="8" fill="#222533" stroke="rgba(255,255,255,0.06)"/>
+      <rect width="95" height="70" rx="8" x="105" fill="#222533" stroke="rgba(255,255,255,0.06)"/>
+      <rect width="95" height="70" rx="8" x="210" fill="#222533" stroke="rgba(255,255,255,0.06)"/>
+      
+      <circle cx="47" cy="35" r="16" fill="rgba(229, 178, 110, 0.2)"/>
+      <rect x="135" y="25" width="35" height="20" rx="4" fill="rgba(229, 178, 110, 0.2)"/>
+      <polygon points="255,22 270,45 240,45" fill="rgba(229, 178, 110, 0.2)"/>
+    </g>
+
+    <!-- Performance Badge -->
+    <g transform="translate(28, 230)">
+      <rect width="305" height="34" rx="8" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.3)"/>
+      <text x="14" y="21" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#10B981">⚡ 99/100 Core Web Vitals</text>
+      <text x="180" y="21" font-family="-apple-system, sans-serif" font-size="10" fill="#9CA3AF">· Sub-second Mobile Speed</text>
+    </g>
+  </g>
+</svg>
