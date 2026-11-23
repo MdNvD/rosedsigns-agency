@@ -4,6 +4,9 @@ A bespoke, responsive, and interactive landing page crafted for **RoseDsigns**, 
 
 Designed and developed for the **Web Design & Development Specialist** practical assessment task.
 
+**🔗 Live Production URL:** [https://rosedsigns-agency.vercel.app](https://rosedsigns-agency.vercel.app)  
+**📂 GitHub Repository:** [https://github.com/MdNvD/rosedsigns-agency](https://github.com/MdNvD/rosedsigns-agency)
+
 ---
 
 ## 🌹 Design Philosophy: Why This Doesn't Look Like Generic AI
